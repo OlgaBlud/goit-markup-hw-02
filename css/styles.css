@@ -61,7 +61,6 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 .order-btn {
@@ -84,7 +83,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
+
   color: #2e2f42;
 }
 .section-sub-title {
@@ -104,8 +103,6 @@ a {
   background-color: #fff;
 }
 .footer {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
 }
 .footer-text {
