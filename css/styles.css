@@ -1,3 +1,114 @@
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
- */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo-span {
+  color: #4d5ae5;
+}
+.logo-footer {
+  color: #f4f4fd;
+}
+.nav-links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.nav-links:hover,
+.nav-links:focus {
+  color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+}
+.contact-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+.main-section {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.order-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #404bbf;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.section-sub-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer {
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
